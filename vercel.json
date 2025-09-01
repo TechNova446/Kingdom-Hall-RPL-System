@@ -9,17 +9,11 @@
       }
     }
   ],
-  "routes": [
-    {
-      "src": "/static/(.*)",
-      "dest": "/client/build/static/$1"
-    },
-    {
-      "src": "/(.*)",
-      "dest": "/client/build/index.html"
-    }
-  ],
   "rewrites": [
+    {
+      "source": "/static/(.*)",
+      "destination": "/client/build/static/$1"
+    },
     {
       "source": "/(.*)",
       "destination": "/index.html"
