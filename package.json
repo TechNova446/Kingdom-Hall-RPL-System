@@ -1,0 +1,15 @@
+{
+  "name": "rpl-mobilization-platform-frontend",
+  "version": "1.0.0",
+  "description": "RPL Mobilization and Certification Platform Frontend (React + TypeScript)",
+  "main": "client/src/index.tsx",
+  "scripts": {
+    "start": "cd client && npm start",
+    "build": "cd client && npm run build",
+    "install": "cd client && npm install",
+    "dev": "cd client && npm start"
+  },
+  "keywords": ["rpl", "certification", "kenya", "knqa", "mobilization", "react", "frontend"],
+  "author": "RPL Platform Team",
+  "license": "MIT"
+}
